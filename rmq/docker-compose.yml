@@ -51,3 +51,7 @@ services:
       rmq:
         aliases:
           - rmqconsole
+          
+networks:
+  rmq:
+    driver: bridge   
